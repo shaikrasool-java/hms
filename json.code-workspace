@@ -1,0 +1,55 @@
+{
+    "grn":{
+       "purchaseorder":{
+    
+                "childs":[{
+        
+                                "line":{
+    
+                                 
+                                    "uom":{ "id":101, "code":"BOXB"},
+
+                                    "vendors": [
+                               
+                                    { "id": 101, "code": "AAAA" },
+                                    
+                                    { "id": 102, "code": "BBBB" }, 
+                                    
+                                    { "id": 103, "code": "CCCC" }, 
+                                    
+                                    { "id": 104, "code": "DDDD" }
+                                    
+                                     ]
+              
+                    
+                },
+
+                "childs":{
+                        "line":{
+    
+                            "uom":{ "id":102, "code":"PLTS"},
+                            
+                            "vendors": [
+                                   
+                                        { "id": 201, "code": "EEEE" },
+                                        
+                                        { "id": 202, "code": "FFFF" }, 
+                                        
+                                        { "id": 203, "code": "GGGG" }, 
+                                        
+                                        { "id": 204, "code": "HHHH" }
+                                        
+                                         ]
+                
+                        
+                            }
+                        },
+                        
+               
+                    }
+                    
+
+                ]
+          }
+}
+}
